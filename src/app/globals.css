@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient-main {
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #f1e9d249 48%, rgba(255, 255, 255, 0) 100%);
+}
+
+.btn-5 {
+  border-radius: 99rem;
+  border-width: 0px;
+  overflow: hidden;
+  padding: 0.5rem 1.7rem;
+  position: relative;
+  background-color: #172C49;
+  color: #ffffff;
+  cursor: pointer;
+  border:1px solid #172C49;
+}
+
+.btn-5 span {
+  mix-blend-mode: difference;
+}
+
+.btn-5:before {
+  --tilt: 1.2rem;
+  background: #F1E9D2;
+  -webkit-clip-path: polygon(0 0,
+      calc(100% - var(--tilt)) 0,
+      100% 50%,
+      calc(100% - var(--tilt)) 100%,
+      0 100%);
+  clip-path: polygon(0 0,
+      calc(100% - var(--tilt)) 0,
+      100% 50%,
+      calc(100% - var(--tilt)) 100%,
+      0 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: calc(-100% - var(--tilt));
+  position: absolute;
+  top: 0; 
+  transform: translateX(var(--progress, 0));
+  transition: transform 0.2s ease;
+  width: calc(100% + var(--tilt));
+}
+
+.btn-5:hover:before {
+  --progress: 100%;
+}
+
+/***********************/
+
+.object-position-N60px{
+  object-position: 0 -60px;
+}
+.breadcrumb__area::before {
+  content: "";
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000052;
+  background: linear-gradient(39deg, #000000f7, #000000de, #000000bf, #0000006b, transparent);
+}
