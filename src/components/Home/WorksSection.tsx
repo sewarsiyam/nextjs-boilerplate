@@ -13,33 +13,44 @@ interface WorkItem {
 const webWorks: WorkItem[] = [
   {
     id: 1,
-    title: "Web Project One",
+    title: "oloom plus",
     category: "Web Development",
     image: "/oloom.jpg",
-    link: "#"
+    link: "https://oloomplus.com/"
   },
   {
     id: 2,
-    title: "Web Project Two",
-    category: "Web App",
+    title: "sewaar website",
+    category:"Web Development",
     image: "/web3.jpg",
-    link: "sewaar.com"
+    link: "http://sewaar.com"
   },
   {
     id: 3,
-    title: "Web Project Three",
-    category: "Frontend",
-    image: "/web2.jpg",
-    link: "#"
+    title: "ketara",
+    category: "Web Development",
+    image: "/web5.jpg",
+    link: "http://ketara.com"
   },
   {
     id: 4,
+    title: "northwest barbershop",
+    category: "Web Development",
+    image: "/web6.jpg",
+    link: "http://nwbarbershop.com"
+  },
+  
+  {
+    id: 5,
     title: "Web Project Four",
     category: "Full Stack",
-    image: "/web3.jpg",
-    link: "#"
+    image: "/web7.jpg",
+    link: "https://elbaheshlawfirm.com/"
   },
 ];
+
+
+
 
 const designWorks: WorkItem[] = [
   {

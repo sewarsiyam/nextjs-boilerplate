@@ -44,17 +44,17 @@ export default function AboutSection() {
           <div className="grid grid-cols-1 lg:grid-cols-5 items-center gap-6 mx-auto">
             <div className="hidden md:grid md:grid-cols-3 lg:grid-cols-1 md:gap-4 lg:gap-0 lg:space-y-4">
               <LeftImageCard 
-                src="/web1.png" 
+                src="/web2.jpg" 
                 alt="web1.png"
                 className="h-24 sm:h-28 md:h-32 lg:h-36"
               />
                <RightImageCard 
-                src="/web2.jpg" 
+                src="/web3.jpg" 
                 alt="Website showcase 5"
                 className="h-24 sm:h-28 md:h-32 lg:h-36 transition -translate-x-6 group-hover:translate-x-1"
               />
               <LeftImageCard 
-                src="/web1.png" 
+                src="/web7.jpg" 
                 alt="Website showcase 3"
                 className="h-24 sm:h-28 md:h-32 lg:h-36"
               />
@@ -77,17 +77,17 @@ export default function AboutSection() {
             </div>
             <div className="hidden md:grid md:grid-cols-3 lg:grid-cols-1 md:gap-4 lg:gap-0 lg:space-y-4">
               <RightImageCard 
-                src="/web1.png" 
+                src="/web5.jpg" 
                 alt="Website showcase 4"
                 className="h-24 sm:h-28 md:h-32 lg:h-36"
               />
               <RightImageCard 
-                src="/web2.jpg" 
+                src="/web6.jpg" 
                 alt="Website showcase 5"
                 className="h-24 sm:h-28 md:h-32 lg:h-36 transition translate-x-6 group-hover:translate-x-1"
               />
               <RightImageCard 
-                src="/web3.jpg" 
+                src="/oloom.jpg" 
                 alt="Website showcase 6"
                 className="h-24 sm:h-28 md:h-32 lg:h-36"
               />
