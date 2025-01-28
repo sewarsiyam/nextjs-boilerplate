@@ -8,10 +8,10 @@ const SITE_URL = 'https://www.sadeim.com';
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "sadeim - Business Development Alliance",
-    template: '%s | sadeim'
+    default: "Sadeim - Business Development Alliance",
+    template: '%s | Sadeim'
   },
-  description: "sadeim is a leading technology company specializing in software development, AI solutions, social media management, and digital transformation. We deliver innovative tech solutions for businesses worldwide. صديم - شركة رائدة في تطوير البرمجيات والذكاء الاصطناعي",
+  description: "Sadeim is a leading technology company specializing in software development, AI solutions, social media management, and digital transformation. We deliver innovative tech solutions for businesses worldwide. صديم - شركة رائدة في تطوير البرمجيات والذكاء الاصطناعي",
   keywords: [
     // Technology Keywords
     "software development",
@@ -107,7 +107,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'add-your-google-site-verification',
+    google: 'Rv7G860nmGwM4StHgRy63pPfKuyB2aWPGOKNMBUpXOc',
   },
   category: 'technology',
 };
