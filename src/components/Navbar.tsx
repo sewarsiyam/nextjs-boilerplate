@@ -59,20 +59,20 @@ export default function Navbar() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a
+            <Link
               key={item.name}
               href={item.href}
               className={`text-sm/6 font-semibold transition-colors ${scrolled ? 'text-gray-700 hover:text-gray-900' : 'text-gray-900'
                 }`}
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href='contact_us' className="bg-primary rounded-full px-8 py-3 shadow text-white hover:bg-primary/90">
+          <Link href='contact_us' className="bg-primary rounded-full px-8 py-3 shadow text-white hover:bg-primary/90">
             <span>Contact Us &rarr;</span>
-          </a>
+          </Link>
         </div>
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
@@ -104,21 +104,21 @@ export default function Navbar() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
                     href={item.href}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
               <div className="py-6">
-                <a
+                <Link
                   href='contact_us' 
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
