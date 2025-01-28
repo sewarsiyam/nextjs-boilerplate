@@ -49,7 +49,7 @@ export default function AboutSection() {
                 className="h-24 sm:h-28 md:h-32 lg:h-36"
               />
                <RightImageCard 
-                src="/web1.png" 
+                src="/web2.jpg" 
                 alt="Website showcase 5"
                 className="h-24 sm:h-28 md:h-32 lg:h-36 transition -translate-x-6 group-hover:translate-x-1"
               />
@@ -82,12 +82,12 @@ export default function AboutSection() {
                 className="h-24 sm:h-28 md:h-32 lg:h-36"
               />
               <RightImageCard 
-                src="/web1.png" 
+                src="/web2.jpg" 
                 alt="Website showcase 5"
                 className="h-24 sm:h-28 md:h-32 lg:h-36 transition translate-x-6 group-hover:translate-x-1"
               />
               <RightImageCard 
-                src="/web1.png" 
+                src="/web3.jpg" 
                 alt="Website showcase 6"
                 className="h-24 sm:h-28 md:h-32 lg:h-36"
               />

@@ -28,7 +28,7 @@ export default function Footer() {
                 alt="sadeim Logo"
                 className="h-8"
               />
-              <svg id="Layer_2" className="w-36 fill-white" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458.37 55.64">
+              <svg id="Layer_2" className="w-36 fill-[#f1e9d2]" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458.37 55.64">
                 <g id="Layer_1-2" data-name="Layer 1">
                   <g>
                     <g>

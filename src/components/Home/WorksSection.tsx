@@ -22,21 +22,21 @@ const webWorks: WorkItem[] = [
     id: 2,
     title: "Web Project Two",
     category: "Web App",
-    image: "/web1.png",
-    link: "#"
+    image: "/web3.jpg",
+    link: "sewaar.com"
   },
   {
     id: 3,
     title: "Web Project Three",
     category: "Frontend",
-    image: "/web1.png",
+    image: "/web2.jpg",
     link: "#"
   },
   {
     id: 4,
     title: "Web Project Four",
     category: "Full Stack",
-    image: "/web1.png",
+    image: "/web3.jpg",
     link: "#"
   },
 ];
@@ -60,7 +60,7 @@ const designWorks: WorkItem[] = [
     id: 3,
     title: "Design Project Three",
     category: "Visual Design",
-    image: "/oloom.jpg",
+    image: "/web2.jpg",
     link: "#"
   },
   {
