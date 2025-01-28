@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     default: "Sadeim - Business Development Alliance",
     template: '%s | Sadeim'
   },
-  description: "Sadeim is a leading technology company specializing in software development, AI solutions, social media management, and digital transformation. We deliver innovative tech solutions for businesses worldwide. صديم - شركة رائدة في تطوير البرمجيات والذكاء الاصطناعي",
+  description: "sadeim is a leading technology company specializing in software development, AI solutions, social media management, and digital transformation. We deliver innovative tech solutions for businesses worldwide. صديم - شركة رائدة في تطوير البرمجيات والذكاء الاصطناعي",
   keywords: [
     // Technology Keywords
     "software development",
